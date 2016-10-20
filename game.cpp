@@ -1,6 +1,24 @@
 #include <iostream>
 using namespace std;
+struct magic {
+	int fireblast = 50; // strong against ice
+	
+	int iceblast = 50; // against earth
+	
+	int earthblast = 50; // againts ligthning(immune)
+	
+	int ligthningblast = 50;//strong againts water
+	
+		int waterblast = 50; //against fire
+	
+	int megablast = 100;//damages player himself by 50
+	};//end
+	
+struct potions {
+	int SmallPotion = 10,MediumPotion = 30,LargePotion = 50;//heals depending on health
 
+};//end	
+	
 struct character {
 	char body = '@';
 	int x = 1;
